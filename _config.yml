@@ -1,5 +1,6 @@
 # Site settings
 title: "Teguh Suandi"
+author_name: "Teguh Suandi"
 email: mteguhasuandi@gmail.com
 description: "Not only about coding."
 baseurl: ""
@@ -10,7 +11,7 @@ google_analytics: false
 disqus_account: mtasuandi
 github_repository: https://github.com/mtasuandi/mtasuandi.github.io
 addthis_id: ra-56c89886c3c8d89c
-post_limit: 5
+post_limit: 10
 
 # Social usernames/URLs
 twitter_username: mtasuandi
