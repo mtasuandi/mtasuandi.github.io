@@ -3,7 +3,7 @@ title: "Teguh Suandi"
 email: mteguhasuandi@gmail.com
 description: "Not only about coding."
 baseurl: ""
-url: "http://mtasuandi.com/"
+url: "http://mtasuandi.github.io/"
 title_description: "I try to track everything here, not only about coding but also stories."
 title_image: "https://avatars0.githubusercontent.com/u/2455314?v=3&s=460"
 google_analytics: "UA-20365477-4"
@@ -23,8 +23,6 @@ stackoverflow_link: http://mtasuandi.com/
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/mtasuandi\">Teguh Suandi</a>"
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+markdown: kramdown
 permalink: pretty
 exclude: [vendor]
