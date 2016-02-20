@@ -1,92 +1,81 @@
 ---
 layout: projects
-title: Yury's Projects
+title: Teguh's Projects
 ---
 
-<style>
-  .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  }
-  
+<style>  
   h3 {
-
-    	color: #C04848;
-    	margin-bottom: 10px;
+  	color: #C04848;
+  	margin-bottom: 10px;
   }
-  
-  li {
-  	list-style-type:none;
-	width:98%;
-	padding:3px;
-	margin-bottom:15px;
-	margin-top:-10px;
-	padding-left:4px;
-   }
-		
-
-
+  .image_project {
+  	width:448px;
+  	height:211px;
+  }
 </style>
  
-<h3>StormyKnights Chess</h3>
+<a href="http://ecompageslaunch.com/">
+	<h3>eCom Pages</h3>
+</a>
 
-<a href="http://stormy-knights.herokuapp.com/"><img src="http://i.imgur.com/areoEIC.jpg" alt="Image Missing" style="width:448px;height:211px;"></a>
+<a href="http://ecompageslaunch.com/">
+	<img src="/assets/eComPages.png" alt="eCom Pages" class="image_project">
+</a>
 <br/>
-StormyKnights is an online chess game. I was a part of a team of four developers that worked on this project. StormyKnights was the capstone app for The Firehose Project, an immersive web development program with a focus on Ruby on Rails.
-<br/><br/>
-<ul>
-
-
-	<li>  
-	  Added method <code>obstructed?</code>. This method determines whether the path between a piece and an intended destination is a straight line (either horizontal, vertical, or diagonal). If the path is a straight line, then it checks whether the path is obstructed by another piece. Returns true if one or more squares between the piece and the destination are occupied. Otherwise, returns false. If the path is not a straight line, then it raises a RuntimeError. This commit includes a unit test for <code>obstructed?</code>.</br>
-	  <a href="https://github.com/StormyKnights/StormyKnights/commit/a1cd563d3acec61c02902faeadcbf474a5d1e700">Commit# a1cd563d3acec61c02902faeadcbf474a5d1e700</a>
-	</li>
-	
-	<li> 
-	  Added method <code>move_to!</code> that implements the logic for capturing an opponent's piece. This method implements a capture if a piece lands on a square occupied by a piece of the opposite color. This is done by setting coordinates of the captured piece to nil and by setting coordinates of the capturing piece to new values. This commit includes a unit test for <code>move_to!</code>.</br>
-	  <a href="https://github.com/StormyKnights/StormyKnights/commit/984dc7a5f6f69ad60db3ca1f59475ba3b3b4796a">Commit# 984dc7a5f6f69ad60db3ca1f59475ba3b3b4796a</a>
-	</li>
-	
-	<li>
-	  Added method <code>perform_move!</code> in Piece model (<code>pieces.rb</code>) that implements a move. It checks whether the intended move is valid by executing the <code>valid_move?</code> method belonging to the piece's subclass. If the move is a castling, then it calls the <code>castling_to?</code> method. Castling logic is implemented in <code>perform_move!</code> method and in King model <code>king.rb</code>. If the move is valid, then it calls the move_to! method to check whether the destination is occupied and to perform a capture if appropriate. This commit includes a unit test for castling logic.</br>
-	  <a href="https://github.com/StormyKnights/StormyKnights/commit/79ed22198ee0b3393eaec0902b1b1742dd5442c9">Commit# 79ed22198ee0b3393eaec0902b1b1742dd5442c9</a>
-	</li>
-	
-	<li>
-	  Added index of existing games and "Join a game" feature.</br>
-	  <a href="https://github.com/StormyKnights/StormyKnights/commit/925015596d3e409e161e18ee90860da2e07f03f0">Commit# 79ed22198ee0b3393eaec0902b1b1742dd5442c9</a>
-	</li>
-
-</ul>
-
+eCom Pages is a Shopify Theme Builder with drag and drop feature. Theme settings can be configured from eCom Pages or Shopify Theme Editor.
 <br/>
 
-<h3>My Recipe Box</h3>
+<a href="http://www.webfont-generator.co.uk/">
+	<h3>typomatic</h3>
+</a>
 
-My Recipe Box is a personal project. It is an app for displaying and sharing recipes. 
-<a href="https://allmyrecipes.herokuapp.com"><img src="http://i.imgur.com/2OU2hyR.jpg" alt="Image Missing" style="width:448px;height:211px;"></a>
-
-
-<a href="https://github.com/yvoloshin/MyRecipeBox">https://github.com/yvoloshin/MyRecipeBox</a>
- 
+<a href="https://www.webfont-generator.co.uk">
+	<img src="/assets/typomatic.png" alt="typomatic" class="image_project">
+</a>
 <br/>
-<br/>
-
-Code highlights from StormyKnights and from My Recipe Box can be viewed as snippets on my <a href="https://my.webfol.io/w/NDA4">Webfolio page.</a>
-
-<br/>
+typomatic is a webfont generator site with "pay with a tweet" to download the @font-face webfont kit.
 <br/>
 
-<h3>CFP-App</h3>
+<a href="http://intelliplayer.com/">
+	<h3>IntelliPlayer</h3>
+</a>
 
-CFP-App is a Ruby on Rails application that lets you manage your conference's call for proposal (CFP), program and schedule. It was written by Ruby Central to run the CFPs for RailsConf and RubyConf. This contribution helped the organizer of <a href="http://www.meetup.com/NYC-rb/">NYC.rb meetup group</a> to customize the app to the group's needs.  
+<a href="http://intelliplayer.com/">
+	<img src="/assets/IntelliPlayer.png" alt="IntelliPlayer" class="image_project">
+</a>
 <br/>
-<ul>
-	<li>
-	  Added button for deleting proposals from organizer view<br/>
-	  <a href="https://github.com/yvoloshin/cfp-app/commit/613f31100e270821a80d3e77eded7cb620dc19a9">Commit# 613f31100e270821a80d3e77eded7cb620dc19a9</a>
-	</li>
-</ul>
+IntelliPlayer is a Software as a Service to design custom video player. It supports YouTube, Vimeo and also HTML5 embedded video player.
+<br/>
+
+<a href="http://wptrafficmax.com/launch/">
+	<h3>WP Traffic Max</h3>
+</a>
+
+<a href="http://wptrafficmax.com/launch/">
+	<img src="/assets/WPTrafficMax.png" alt="WP Traffic Max" class="image_project">
+</a>
+<br/>
+WP Traffic Max is a premium WordPress Plugin designed to easily create customizable popup. It has integration with Youtube video and some autoresponder API like Mailchimp or GetResponse.
+<br/>
+
+<a href="http://onlinelegalpages.com/">
+	<h3>Online Legal Pages</h3>
+</a>
+
+<a href="http://onlinelegalpages.com/">
+	<img src="/assets/OnlineLegalPages.png" alt="Online Legal Pages" class="image_project">
+</a>
+<br/>
+Online Legal Pages is a Software as a Service to help site owner gets their own legal pages.
+<br/>
+
+<a href="http://fpcurator.com/">
+	<h3>Fanpage Curator</h3>
+</a>
+
+<a href="http://fpcurator.com/">
+	<img src="/assets/FanpageCurator.png" alt="Fanpage Curator" class="image_project">
+</a>
+<br/>
+Fanpage Curator is a Software as a Service for content creation and smart scheduling. It has built in search engine that can provide various of contents (images, videos or articles) from different sources.
+<br/>
