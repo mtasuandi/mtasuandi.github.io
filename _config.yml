@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://mtasuandi.github.io/"
 title_description: "I try to track everything here, not only about coding but also stories."
 title_image: "https://avatars0.githubusercontent.com/u/2455314?v=3&s=460"
-google_analytics: "UA-20365477-4"
+google_analytics: false
 disqus_account: mtasuandi
 github_repository: https://github.com/mtasuandi/mtasuandi.github.io
 addthis_id: ra-56c89886c3c8d89c
@@ -17,7 +17,6 @@ twitter_username: mtasuandi
 github_username: mtasuandi
 linkedin_link: https://id.linkedin.com/in/mtasuandi
 google_plus_link: https://plus.google.com/u/2/109088390701176899804
-stackoverflow_link: http://mtasuandi.com/
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/mtasuandi\">Teguh Suandi</a>"
