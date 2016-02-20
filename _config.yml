@@ -1,27 +1,27 @@
 # Site settings
-title: "Yury Voloshin"
-email: yvoloshin01@gmail.com
-description: "Yury Voloshin's Personal Site"
+title: "Teguh Suandi"
+email: mteguhasuandi@gmail.com
+description: "Not only about coding."
 baseurl: ""
-url: "http://yvoloshin.github.io"
-title_description: "A newly-minted web developer specializing in Ruby on Rails. Also experienced in HTML5, CSS3, JQuery, JavaScript, and more. A former chemical engineer. A life-long learner who enjoys picking up new technology skills and building on familiar ones. Yury lives in Brooklyn, NY with his wife and two daughters."
-title_image: "http://i.imgur.com/VSI9h3S.jpg"
-google_analytics: "UA-67857103-1"
-disqus_account: yvoloshin
-github_repository: https://yvoloshin.github.io
-addthis_id: 
+url: "http://mtasuandi.com/"
+title_description: "I try to track everything here, not only about coding but also stories."
+title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-20365477-4"
+disqus_account: mtasuandi
+github_repository: https://github.com/mtasuandi/mtasuandi.github.io
+addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: YuryVoloshin
-github_username:  yvoloshin
-linkedin_link: http://www.linkedin.com/in/yvoloshin
-google_plus_link: 
-stackoverflow_link:
+twitter_username: mtasuandi
+github_username: mtasuandi
+linkedin_link: https://id.linkedin.com/in/mtasuandi
+google_plus_link: https://plus.google.com/u/2/109088390701176899804
+stackoverflow_link: http://mtasuandi.com/
 
 # Footer
-footer_left: "Template made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/mtasuandi\">Teguh Suandi</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/mtasuandi/mtasuandi.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: redcarpet
