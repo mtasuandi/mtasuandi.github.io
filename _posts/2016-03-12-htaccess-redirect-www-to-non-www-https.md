@@ -28,5 +28,5 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 Reference:
 <ul>
-  <li>[http://stackoverflow.com/a/1270281](http://stackoverflow.com/a/1270281)</li>
+  <li><a href="http://stackoverflow.com/a/1270281" target="_blank">http://stackoverflow.com/a/1270281</a></li>
 </ul>
